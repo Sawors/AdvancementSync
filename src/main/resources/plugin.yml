@@ -1,0 +1,15 @@
+name: AdvancementSync
+version: '${project.version}'
+main: io.github.sawors.advancementsync.AdvancementSync
+api-version: '1.21'
+
+commands:
+  adsync:
+    usage: /<command> [player]
+    description: Synchronises everybody or the designated player with the current advancement progress.
+  adload:
+    usage: /<command> [player]
+    description: Loads the progress from the progress file or from the current progress of the designated player.
+  adprint:
+    usage: /<command> [advancement keys...]
+    description: Print the current state of the progress for all or specific advancements

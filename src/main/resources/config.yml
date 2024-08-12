@@ -1,0 +1,26 @@
+# Advancement which are to be completely ignored by the plugin.
+# Regex strings can be used.
+ignore-progress: []
+
+# Advancement which are to be ignored by the plugin for chat announcement.
+# Regex strings can be used.
+# (these advancements still get synchronized)
+ignore-progress-announce: []
+
+# Ignore these criteria based on their name.
+# Useful for instance with datapacks that add
+# visible advancements for ignoring the display
+# criterion.
+# Regex strings can be used.
+criteria-name-ignore: []
+
+# Enforce the gamerule announceAdvancement to false for all worlds.
+enforce-advancement-gamerule: true
+
+# Should the plugin announce in the global chat advancement unlocks ?
+# (does only one message, unlike the gamerule which announces for every online player)
+announce-progress: true
+
+# How many TICKS should the plugin wait before synchronising criteria.
+# Allows advancement triggered by another advancement to be correctly attributed
+cascade-buffer-timeout: 20
